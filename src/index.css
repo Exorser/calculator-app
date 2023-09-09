@@ -1,0 +1,117 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+h1 {
+  color:#494956;
+  
+  text-align: center;
+  text-decoration: underline;
+  text-decoration-color: #494956;
+  text-decoration-thickness: 2px;
+  text-underline-offset: 10px;
+  text-underline-position: under;
+
+  line-height: 56px;
+  margin: 0;
+  margin-bottom: 60px;
+}
+
+div.container {
+  min-width: 100%;
+  height: 100vh;
+
+  font-family: 'Shadows Into Light', cursive;
+
+  position: relative;
+}
+
+.calculator {
+  margin: auto;
+  padding: 10px;
+  margin-bottom: 0;
+
+  max-width: 32vw;
+  height: 54vh;
+
+  background-color: #f1f0f0c7;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+  border-radius: 5px;
+  box-shadow: rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
+ }
+
+
+ul {
+  list-style-type: none;
+
+  margin: 0;
+  padding: 0;
+}
+
+.calculator-buttons {
+  display: flex;
+  gap: 10px;
+
+  margin-bottom: 15px;
+}
+
+.calculator-buttons button  {
+  width: 90px;
+  height: 45px;
+
+  font-size: 25px;
+  background-color: white;
+  color: black;
+}
+
+.calculator-buttons li:nth-child(4n) button {
+  background-color: #f0f0f0 !important;
+}
+
+.calculator-buttons li:nth-child(4n) button:active {
+  background-color: white !important;
+}
+
+.btn-primary {
+  --bs-btn-border-color: none;
+  background-color: white !important;
+  color: #000000 !important;
+  box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.3) 0px 2px 4px 1px;
+}
+
+.btn-primary:active{
+  background-color: #f0f0f0 !important;
+}
+
+button.clear-button {
+  background-color: #f0f0f0 !important;;
+}
+
+button.clear-button:active {
+  background-color: white !important;
+}
+
+input.form-control {
+  background-color: rgba(255, 255, 255, 0.275);
+  box-shadow: inset 0px 5px 0px 0px #dfdfdfde;
+  font-size: 25px;
+}
+
+button.equality-buttons {
+  background-color: #b1b1b1 !important; 
+}
